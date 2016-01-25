@@ -1,7 +1,7 @@
-var place = function(continent, landmark, notes) {
+var place = function(continent, landmark, notes) {//our constructor function for each new place that we add goes through here. This "Place Object" has three properties
   this.continent = continent;
   this.landmark = landmark;
-  this.notes = '';
+  this.notes = notes;
 }
 
 

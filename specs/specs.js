@@ -3,6 +3,6 @@ describe ("place", function() {
     var myPlace = new place("North America", "Yellow Stone", "it was pretty");
     expect(myPlace.continent).to.equal("North America");
     expect(myPlace.landmark).to.equal("Yellow Stone");
-    expect(myPlace.notes).to.equal('');
+    expect(myPlace.notes).to.equal("it was pretty");
   });
 });
