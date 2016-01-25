@@ -8,9 +8,45 @@
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src ="js/scripts.js"></script>
-    <title>ALERT YOUR TITLE GOES HERE BUDDY</title>
+    <title>Places You have Visited. </title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Places I have been</h1>
+          <h3><em>"I done been here..."</em></h3>
+          <form id="new-place">
+            <div class="form-group">
+              <label for="new-continent">Continent:</label>
+              <input type="text" class = "form-control" id="new-continent">
+            </div><!--form-group-->
+            <div class="form-group">
+              <label for="new-landmark">Landmark:</label>
+              <input type="text" class = "form-control" id="new-landmark">
+            </div><!--form-group-->
+            <div class="form-group">
+              <label for="new-notes">Notes:</label>
+              <input type="text" class = "form-control" id="new-notes">
+            </div><!--form-group-->
+            <button type="submit" class="btn btn-success">Add Place</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="output">
+            <h2></h2>
+            <p>
+              <span class = "continent"></span>
+            </p>
+            <p>
+              <span class = "landmark"></span>
+            </p>
+            <p>
+              <span class = "notes"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
